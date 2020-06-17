@@ -1,0 +1,358 @@
+
+|====================================================================|
+|                                                                    |
+|                        The LaZagne Project                         |
+|                                                                    |
+|                          ! BANG BANG !                             |
+|                                                                    |
+|====================================================================|
+
+
+########## User: Garry ##########
+
+------------------- Google chrome passwords -----------------
+
+[+] Password found !!!
+URL: https://www.samco.in/samco_account/setPassword
+Login: 
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://identity.cisco.com/api/tenants/global/v1/am/login-actions/authenticate
+Login: gauravtalele@gmail.com
+Password: GauravTalele*123
+
+[+] Password found !!!
+URL: 
+Login: admin
+Password: password
+
+[+] Password found !!!
+URL: https://accounts.google.com/
+Login: garryfromindia@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://accounts.google.com/
+Login: technologicle7
+Password: qwerty@123
+
+[+] Password found !!!
+URL: https://github.com/session
+Login: gaurav9969351313
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://accounts.google.com/
+Login: technologicle7@gmail.com
+Password: qwerty@123
+
+[+] Password found !!!
+URL: https://notejoy.com/onboarding/create-account
+Login: gauravtalele@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://auth.udacity.com/sign-in
+Login: gauravtalele@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://signup.zerodha.com/form/kra
+Login: 38987049453
+Password: 38987049453
+
+[+] Password found !!!
+URL: https://tryhackme.com/signup
+Login: gaurav
+Password: GauravTalele*
+
+[+] Password found !!!
+URL: https://login.tenable.com/login
+Login: gauravtalele@gmail.com
+Password: GauravTalele@123
+
+[+] Password found !!!
+URL: https://www.linkedin.com/checkpoint/lg/login-submit
+Login: gauravtalele@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: http://localhost:4200/
+Login: sss
+Password: sss@123
+
+[+] Password found !!!
+URL: https://app.pluralsight.com/id/
+Login: gauravtalele@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: http://localhost:4200/
+Login: aaa
+Password: aaa@123
+
+[+] Password found !!!
+URL: https://accounts.google.com/signin/v2/challenge/password/empty
+Login: kajal17talele@gmail.com
+Password: kajal123456789
+
+[+] Password found !!!
+URL: https://login.microsoftonline.com/common/login
+Login: talega-cont@mahindra.com
+Password: mahindra@890
+
+[+] Password found !!!
+URL: https://accounts.google.com/signin/v2/challenge/password/empty
+Login: gauravtalele@gmail.com
+Password: talele1234
+
+[+] Password found !!!
+URL: http://mahindra.t4tracker.com/login.php
+Login: gaurav
+Password: gaurav123
+
+[+] Password found !!!
+URL: https://ep.mahindra.com/irj/portal
+Login: talega-cont
+Password: mahindra@890
+
+[+] Password found !!!
+URL: https://twitter.com/sessions
+Login: gauravtalele@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://kite.zerodha.com/
+Login: 
+Password: yashwanttalele*123
+
+[+] Password found !!!
+URL: https://accounts.google.com/signin/v2/challenge/password/empty
+Login: career.gyt@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://www.amazon.com/ap/signin
+Login: gauravtalele@gmail.com
+Password: GauravTalele*123
+
+[+] Password found !!!
+URL: https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui
+Login: SELF
+Password: GauravTalele*123
+
+[+] Password found !!!
+URL: https://mega.nz/register
+Login: gauravtalele@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://accounts.google.com/signin/v2/challenge/password/empty
+Login: taleleyashwant@gmail.com
+Password: yashwant*123
+
+[+] Password found !!!
+URL: https://webmail.neosofttech.com/login/
+Login: gaurav.talele@neosofttech.com
+Password: (7gQF,[lRSZ8
+
+[+] Password found !!!
+URL: https://login.live.com/ppsecure/post.srf
+Login: gauravtalele@gmail.com
+Password: RekhaTalele@1234
+
+[+] Password found !!!
+URL: https://www.facebook.com/login/device-based/regular/login/
+Login: gauravtalele@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://www.udemy.com/join/login-popup/
+Login: gauravtalele@gmail.com
+Password: gauravtalele
+
+
+[+] 32 passwords have been found.
+For more information launch it again with the -v option
+
+elapsed time = 0.9387338161468506
+
+|====================================================================|
+|                                                                    |
+|                        The LaZagne Project                         |
+|                                                                    |
+|                          ! BANG BANG !                             |
+|                                                                    |
+|====================================================================|
+
+
+########## User: Garry ##########
+
+------------------- Google chrome passwords -----------------
+
+[+] Password found !!!
+URL: https://login.microsoftonline.com/common/login
+Login: talega-cont@mahindra.com
+Password: mahindra@890
+
+[+] Password found !!!
+URL: https://login.tenable.com/login
+Login: gauravtalele@gmail.com
+Password: GauravTalele@123
+
+[+] Password found !!!
+URL: https://ep.mahindra.com/irj/portal
+Login: talega-cont
+Password: mahindra@890
+
+[+] Password found !!!
+URL: https://www.amazon.com/ap/signin
+Login: gauravtalele@gmail.com
+Password: GauravTalele*123
+
+[+] Password found !!!
+URL: https://app.pluralsight.com/id/
+Login: gauravtalele@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://accounts.google.com/signin/v2/challenge/password/empty
+Login: gauravtalele@gmail.com
+Password: talele1234
+
+[+] Password found !!!
+URL: https://www.linkedin.com/checkpoint/lg/login-submit
+Login: gauravtalele@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://mega.nz/register
+Login: gauravtalele@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://www.udemy.com/join/login-popup/
+Login: gauravtalele@gmail.com
+Password: gauravtalele
+
+[+] Password found !!!
+URL: https://www.samco.in/samco_account/setPassword
+Login: 
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://notejoy.com/onboarding/create-account
+Login: gauravtalele@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://webmail.neosofttech.com/login/
+Login: gaurav.talele@neosofttech.com
+Password: (7gQF,[lRSZ8
+
+[+] Password found !!!
+URL: https://kite.zerodha.com/
+Login: 
+Password: yashwanttalele*123
+
+[+] Password found !!!
+URL: https://github.com/session
+Login: gaurav9969351313
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://twitter.com/sessions
+Login: gauravtalele@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://login.live.com/ppsecure/post.srf
+Login: gauravtalele@gmail.com
+Password: RekhaTalele@1234
+
+[+] Password found !!!
+URL: https://accounts.google.com/
+Login: garryfromindia@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: http://localhost:4200/
+Login: sss
+Password: sss@123
+
+[+] Password found !!!
+URL: https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui
+Login: SELF
+Password: GauravTalele*123
+
+[+] Password found !!!
+URL: http://localhost:4200/
+Login: aaa
+Password: aaa@123
+
+[+] Password found !!!
+URL: http://mahindra.t4tracker.com/login.php
+Login: gaurav
+Password: gaurav123
+
+[+] Password found !!!
+URL: https://accounts.google.com/
+Login: technologicle7
+Password: qwerty@123
+
+[+] Password found !!!
+URL: https://auth.udacity.com/sign-in
+Login: gauravtalele@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://tryhackme.com/signup
+Login: gaurav
+Password: GauravTalele*
+
+[+] Password found !!!
+URL: https://accounts.google.com/signin/v2/challenge/password/empty
+Login: career.gyt@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: 
+Login: admin
+Password: password
+
+[+] Password found !!!
+URL: https://accounts.google.com/
+Login: technologicle7@gmail.com
+Password: qwerty@123
+
+[+] Password found !!!
+URL: https://signup.zerodha.com/form/kra
+Login: 38987049453
+Password: 38987049453
+
+[+] Password found !!!
+URL: https://www.facebook.com/login/device-based/regular/login/
+Login: gauravtalele@gmail.com
+Password: gauravtalele*123
+
+[+] Password found !!!
+URL: https://accounts.google.com/signin/v2/challenge/password/empty
+Login: taleleyashwant@gmail.com
+Password: yashwant*123
+
+[+] Password found !!!
+URL: https://accounts.google.com/signin/v2/challenge/password/empty
+Login: kajal17talele@gmail.com
+Password: kajal123456789
+
+[+] Password found !!!
+URL: https://identity.cisco.com/api/tenants/global/v1/am/login-actions/authenticate
+Login: gauravtalele@gmail.com
+Password: GauravTalele*123
+
+
+[+] 32 passwords have been found.
+For more information launch it again with the -v option
+
+elapsed time = 0.8881731033325195
